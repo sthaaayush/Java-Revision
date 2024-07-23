@@ -19,9 +19,9 @@ Today, I focused on foundational Java concepts, including understanding the Java
    - **`while` and `do-while` Loops**: Used for repeated execution of code blocks.
 
 4. **Project Implementations:**
-   - **Guess the Number Game**: A console application where the user guesses a random number.
-   - **Simple Calculator**: A console application that performs basic arithmetic operations based on user input.
-   - **Student Grade Management System**: A console application to input grades, calculate the highest, lowest, and average grades.
+   - **[Guess the Number Game](src/Day1/ProjectA.java)**: A console application where the user guesses a random number.
+   - **[Simple Calculator](src/Day1/ProjectC.java)**: A console application that performs basic arithmetic operations based on user input.
+   - **[Student Grade Management System](src/Day1/ProjectC.java)**: A console application to input grades, calculate the highest, lowest, and average grades.
 
 **Key Learnings:**
 - **Primitive Data Types**: Their properties and usage.
