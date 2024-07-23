@@ -1,5 +1,5 @@
-#### Java-Revision
-### **Day 1: Java Learning Journey**
+### Java-Revision
+## **Day 1: Java Learning Journey**
 
 **Overview:**
 Today, I focused on foundational Java concepts, including understanding the Java Development Kit (JDK), Java Runtime Environment (JRE), and Java Virtual Machine (JVM). I also explored primitive data types, control flow statements, and loops.
