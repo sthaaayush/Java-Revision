@@ -29,3 +29,5 @@ Today, I focused on foundational Java concepts, including understanding the Java
 - **Loops**: Repeating tasks and iteration.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 
+**Related Projects:**
+- [Day1 Folder](./Day1)
