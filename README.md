@@ -1,5 +1,5 @@
 ### Java-Revision
-## **Day 1: Java Learning Journey**
+**[Day 1: Java Learning Journey](/src/Day1)**
 
 **Overview:**
 Today, I focused on foundational Java concepts, including understanding the Java Development Kit (JDK), Java Runtime Environment (JRE), and Java Virtual Machine (JVM). I also explored primitive data types, control flow statements, and loops.
@@ -29,5 +29,3 @@ Today, I focused on foundational Java concepts, including understanding the Java
 - **Loops**: Repeating tasks and iteration.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 
-**Related Projects:**
-- [Day1 Folder](./Day1)
