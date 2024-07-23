@@ -1,6 +1,6 @@
 package Day1;
 
-public class started {
+public class Started {
 	public static void main(String[] args) {
 		int a = 1, b = 2;
 		var c = "Aayush"; //feature of jdk10 
