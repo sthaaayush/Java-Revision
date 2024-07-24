@@ -1,4 +1,4 @@
-package Day2;
+package day2;
 
 interface Veichle{
 	void start();

@@ -1,4 +1,4 @@
-package Day2;
+package day2;
 
 class Shape {
     // Calculates the area of a rectangle or square
