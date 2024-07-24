@@ -6,7 +6,7 @@ class Car{
 	double price;
 }
 
-public class RefDatatypes {
+public class RefDataTypes {
 	public static void main(String [] args) {
 		Car m1 = new Car();
 		m1.sn=230;

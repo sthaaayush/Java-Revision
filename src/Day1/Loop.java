@@ -1,6 +1,6 @@
 package day1;
 
-public class Loops {
+public class Loop {
 	public static void main(String[] args) {
 		 System.out.println("For Loop\n");
 		for (int i = 0; i <= 10; i++) {

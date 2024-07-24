@@ -1,6 +1,6 @@
 package day1;
 
-public class PrimDatatypes {
+public class PrimDataTypes {
 	public static void main(String[] args){
 		byte b=1;
 		short s=2;
