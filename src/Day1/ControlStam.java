@@ -1,6 +1,6 @@
 package day1;
 
-public class ControlStm {
+public class ControlStam {
 	public static void main(String[] args) {
 		int day = 2;
 		switch (day) {
