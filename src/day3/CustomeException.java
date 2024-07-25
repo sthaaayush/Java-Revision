@@ -20,6 +20,8 @@ public class CustomeException {
 			arrDisplay("");
 		} catch (NullValueException e) {
 			System.out.println("Exception caught:"+ e.getMessage());
+		} finally {
+			System.out.println("Finally block executed");
 		}
 	}
 }
