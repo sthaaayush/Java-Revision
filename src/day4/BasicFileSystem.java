@@ -36,11 +36,11 @@ public class BasicFileSystem {
 			System.out.println("File does not exist.");
 		}
 
-//		// Delete the file
-//		if (file.delete()) {
-//			System.out.println("File deleted successfully.");
-//		} else {
-//			System.out.println("Failed to delete the file.");
-//		}
+		// Delete the file
+		if (file.delete()) {
+			System.out.println("File deleted successfully.");
+		} else {
+			System.out.println("Failed to delete the file.");
+		}
 	}
 }
