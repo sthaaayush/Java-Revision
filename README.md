@@ -80,3 +80,55 @@ Today, I focused on advanced Java concepts including inheritance, polymorphism, 
 - **Arrays**: Managing collections of data efficiently.
 - **Strings**: Utilizing powerful string manipulation methods.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
+
+# Day 3: Exception Handling and Custom Exceptions
+
+**Overview:**
+Today, I focused on understanding and implementing exception handling in Java, including creating custom exceptions and handling them in a sample project.
+
+**Topics Covered:**
+
+1. **Exception Handling Basics:**
+   - **`try-catch` Block**: Used for handling exceptions.
+   - **`finally` Block**: Executed regardless of whether an exception occurred.
+
+2. **Creating Custom Exceptions:**
+   - **Defining a Custom Exception**: Extended the `Exception` class to create a custom exception.
+   - **Throwing and Catching Custom Exceptions**: Used custom exceptions in code and handled them appropriately.
+
+3. **Project Implementations:**
+   - **[Custom Exception Example](src/day3/CustomExceptionExample.java)**: Implemented a project demonstrating custom exceptions by creating a `NullValueException` for handling empty or null values.
+
+**Key Learnings:**
+- **Exception Handling**: Managed exceptions using `try-catch` and `finally` blocks.
+- **Custom Exceptions**: Defined and used custom exceptions for specific error handling.
+- **Project Practice**: Applied exception handling concepts in a practical example.
+
+---
+
+# Day 4: File I/O and Serialization
+
+**Overview:**
+Today's focus was on file handling and serialization in Java. This included reading from and writing to files, and understanding how to serialize and deserialize objects.
+
+**Topics Covered:**
+
+1. **File I/O:**
+   - **File Handling**: Created and managed files and directories using `File` class.
+   - **File Writing**: Used `FileWriter`, `BufferedWriter`, and `PrintWriter` for writing to files.
+   - **File Reading**: Used `FileReader` and `BufferedReader` for reading from files.
+
+2. **Serialization:**
+   - **Serializable Interface**: Implemented `Serializable` interface to enable object serialization.
+   - **Object Serialization and Deserialization**: Used `ObjectOutputStream` and `ObjectInputStream` to write and read serialized objects.
+
+3. **Project Implementations:**
+   - **[File Management System](src/day4/ProjectA.java)**: A console application to manage files, including creating, writing, appending, and reading files.
+   - **[Student Record Management System](src/day4/ProjectB.java)**: A console application to serialize and deserialize student records, allowing for storage and retrieval of student data.
+
+**Key Learnings:**
+- **File I/O**: Managed file operations and data manipulation using various file I/O classes.
+- **Serialization**: Enabled object serialization for saving and retrieving object states.
+- **Project Practice**: Implemented projects to reinforce file handling and serialization concepts.
+
+
