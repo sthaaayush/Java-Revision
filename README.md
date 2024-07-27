@@ -28,7 +28,7 @@ Today, I focused on foundational Java concepts, including understanding the Java
 - **Control Flow**: Making decisions and branching in code.
 - **Loops**: Repeating tasks and iteration.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
-
+---
 **[Day 2: Java Learning Journey](/src/Day2)**
 
 **Overview:**
@@ -80,7 +80,7 @@ Today, I focused on advanced Java concepts including inheritance, polymorphism, 
 - **Arrays**: Managing collections of data efficiently.
 - **Strings**: Utilizing powerful string manipulation methods.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
-
+---
 **[Day 3: Exception Handling and Custom Exceptions](src/Day3)**
 
 **Overview:**
