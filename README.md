@@ -97,7 +97,7 @@ Today, I focused on understanding and implementing exception handling in Java, i
    - **Throwing and Catching Custom Exceptions**: Used custom exceptions in code and handled them appropriately.
 
 3. **Project Implementations:**
-   - **[Custom Exception Example](src/day3/CustomExceptionExample.java)**: Implemented a project demonstrating custom exceptions by creating a `NullValueException` for handling empty or null values.
+   - **[Custom Exception Example](src/day3/CustomeException.java)**: Implemented a project demonstrating custom exceptions by creating a `NullValueException` for handling empty or null values.
 
 **Key Learnings:**
 - **Exception Handling**: Managed exceptions using `try-catch` and `finally` blocks.
