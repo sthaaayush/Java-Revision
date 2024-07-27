@@ -81,7 +81,7 @@ Today, I focused on advanced Java concepts including inheritance, polymorphism, 
 - **Strings**: Utilizing powerful string manipulation methods.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 
-# Day 3: Exception Handling and Custom Exceptions
+**[Day 3: Exception Handling and Custom Exceptions](src/Day3)**
 
 **Overview:**
 Today, I focused on understanding and implementing exception handling in Java, including creating custom exceptions and handling them in a sample project.
@@ -106,7 +106,7 @@ Today, I focused on understanding and implementing exception handling in Java, i
 
 ---
 
-# Day 4: File I/O and Serialization
+**[Day 4: File I/O and Serialization](src/Day4)**
 
 **Overview:**
 Today's focus was on file handling and serialization in Java. This included reading from and writing to files, and understanding how to serialize and deserialize objects.
