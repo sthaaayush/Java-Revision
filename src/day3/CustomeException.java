@@ -1,5 +1,6 @@
 package day3;
 
+@SuppressWarnings("serial")
 class NullValueException extends Exception{
 	public NullValueException(String msg) {
 		super(msg);
