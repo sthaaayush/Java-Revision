@@ -1,4 +1,4 @@
-package day1;
+package days1;
 
 public class Starting {
 	public static void main(String[] args) {

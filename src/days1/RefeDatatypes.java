@@ -1,4 +1,4 @@
-package day1;
+package days1;
 
 class Car{
 	int sn;
