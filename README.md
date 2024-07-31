@@ -132,3 +132,102 @@ Today's focus was on file handling and serialization in Java. This included read
 - **Project Practice**: Implemented projects to reinforce file handling and serialization concepts.
 
 ---
+
+**[Day 5: Java Collections](src/Day5)**
+
+**Overview:**
+Today's focus was on learning and practicing various Java Collections, specifically `ArrayList`, `LinkedList`, `Stack`, `Vector`, `HashMap`, `TreeMap`, and `HashSet`. This included understanding their characteristics, common methods, and practical implementations.
+
+**Topics Covered:**
+
+1. **ArrayList:**
+   - **Introduction to ArrayList**: Understanding the dynamic array implementation in Java.
+   - **Common Methods**: 
+     - `add(E e)`
+     - `remove(int index)`
+     - `get(int index)`
+     - `set(int index, E element)`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating, manipulating, and iterating through an ArrayList.
+
+2. **Iterator:**
+   - **Introduction to Iterator**: Traversing through collections using Iterator.
+   - **Common Methods**:
+     - `hasNext()`
+     - `next()`
+     - `remove()`
+   - **Example**: Using Iterator to traverse through a collection.
+
+3. **LinkedList:**
+   - **Introduction to LinkedList**: Understanding the doubly-linked list implementation in Java.
+   - **Common Methods**:
+     - `add(E e)`
+     - `remove(int index)`
+     - `get(int index)`
+     - `set(int index, E element)`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating and manipulating a LinkedList of custom objects.
+
+4. **Stack:**
+   - **Introduction to Stack**: Understanding the LIFO (Last In First Out) principle.
+   - **Common Methods**:
+     - `push(E item)`
+     - `pop()`
+     - `peek()`
+     - `isEmpty()`
+     - `size()`
+   - **Example**: Using Stack to store and manipulate a collection of strings.
+
+5. **Vector:**
+   - **Introduction to Vector**: Understanding the dynamic array with synchronized methods.
+   - **Common Methods**:
+     - `add(E e)`
+     - `remove(int index)`
+     - `get(int index)`
+     - `set(int index, E element)`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating and manipulating a Vector of strings.
+
+6. **HashMap:**
+   - **Introduction to HashMap**: Understanding the key-value pair mapping.
+   - **Common Methods**:
+     - `put(K key, V value)`
+     - `remove(Object key)`
+     - `get(Object key)`
+     - `containsKey(Object key)`
+     - `containsValue(Object value)`
+     - `keySet()`
+     - `values()`
+     - `entrySet()`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating, manipulating, and iterating through a HashMap.
+
+7. **TreeMap:**
+   - **Introduction to TreeMap**: Understanding the sorted key-value pair mapping.
+   - **Common Methods**:
+     - `put(K key, V value)`
+     - `remove(Object key)`
+     - `get(Object key)`
+     - `containsKey(Object key)`
+     - `firstKey()`
+     - `lastKey()`
+     - `headMap(K toKey)`
+     - `tailMap(K fromKey)`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating, manipulating, and iterating through a TreeMap.
+
+8. **HashSet:**
+   - **Introduction to HashSet**: Understanding the unique element collection.
+   - **Common Methods**:
+     - `add(E e)`
+     - `remove(Object o)`
+     - `contains(Object o)`
+     - `isEmpty()`
+     - `size()`
+     - `clear()`
+   - **Example**: Creating, manipulating, and iterating through a HashSet.
