@@ -131,4 +131,4 @@ Today's focus was on file handling and serialization in Java. This included read
 - **Serialization**: Enabled object serialization for saving and retrieving object states.
 - **Project Practice**: Implemented projects to reinforce file handling and serialization concepts.
 
-
+---
