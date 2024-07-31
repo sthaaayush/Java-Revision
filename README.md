@@ -29,7 +29,7 @@ Today, I focused on foundational Java concepts, including understanding the Java
 - **Loops**: Repeating tasks and iteration.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 ---
-**[Day 2: Java Learning Journey](/src/Day2)**
+**[Day 2: OOPS Concept](/src/Day2)**
 
 **Overview:**
 Today, I focused on advanced Java concepts including inheritance, polymorphism, encapsulation, abstraction, arrays, and strings. I also worked on practical projects to solidify my understanding of these concepts.
