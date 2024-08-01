@@ -231,3 +231,47 @@ Today's focus was on learning and practicing various Java Collections, specifica
      - `size()`
      - `clear()`
    - **Example**: Creating, manipulating, and iterating through a HashSet.
+
+9. **PriorityQueue:**
+   - **Introduction to PriorityQueue**: Understanding the queue that orders its elements based on their natural ordering or by a specified comparator.
+   - **Common Methods**:
+     - `add(E e)`
+     - `offer(E e)`
+     - `peek()`
+     - `poll()`
+     - `remove(Object o)`
+     - `size()`
+   - **Example**: Creating and using a PriorityQueue to store and retrieve elements in priority order.
+
+10. **LinkedHashSet:**
+    - **Introduction to LinkedHashSet**: Understanding a HashSet with predictable iteration order based on insertion.
+    - **Common Methods**:
+      - `add(E e)`
+      - `remove(Object o)`
+      - `contains(Object o)`
+      - `isEmpty()`
+      - `size()`
+      - `clear()`
+    - **Example**: Creating and manipulating a LinkedHashSet of strings.
+
+11. **TreeSet:**
+    - **Introduction to TreeSet**: Understanding a NavigableSet that uses a Red-Black tree to store elements in a sorted order.
+    - **Common Methods**:
+      - `add(E e)`
+      - `remove(Object o)`
+      - `contains(Object o)`
+      - `first()`
+      - `last()`
+      - `headSet(E toElement)`
+      - `tailSet(E fromElement)`
+      - `size()`
+      - `clear()`
+    - **Example**: Creating and manipulating a TreeSet of integers.
+
+12. **ProjectA (Library Management System):**
+    - **Detailed Implementation**:
+      - **Book Class**: Represents a book with attributes such as title, author, ISBN, and availability. Includes methods for setting and getting these attributes.
+      - **Member Class**: Represents a library member with attributes such as name, ID, and a list of borrowed books. Includes methods for setting and getting these attributes.
+      - **Library Class**: Manages the collection of books and members. Provides methods to add, remove, search for books and members, and handle borrowing and returning of books. 
+      - **Borrowing Books**: Added functionality to borrow books, ensuring the book is available and updating the member's borrowed books list.
+      - **Returning Books**: Added functionality to return books, ensuring the book is borrowed by the member and updating the member's borrowed books list and the book's availability.
