@@ -268,10 +268,22 @@ Today's focus was on learning and practicing various Java Collections, specifica
       - `clear()`
     - **Example**: Creating and manipulating a TreeSet of integers.
 
-12. **ProjectA (Library Management System):**
-    - **Detailed Implementation**:
-      - **Book Class**: Represents a book with attributes such as title, author, ISBN, and availability. Includes methods for setting and getting these attributes.
-      - **Member Class**: Represents a library member with attributes such as name, ID, and a list of borrowed books. Includes methods for setting and getting these attributes.
-      - **Library Class**: Manages the collection of books and members. Provides methods to add, remove, search for books and members, and handle borrowing and returning of books. 
-      - **Borrowing Books**: Added functionality to borrow books, ensuring the book is available and updating the member's borrowed books list.
-      - **Returning Books**: Added functionality to return books, ensuring the book is borrowed by the member and updating the member's borrowed books list and the book's availability.
+**Project Implementations:**
+
+1. **[Library Management System](src/Day5/ProjectA.java)**:
+   - **Description**: A system to manage library books using ArrayList, LinkedList, and HashMap.
+   - **Key Features**: Adding, removing, searching for books, and displaying available books.
+
+2. **[Course Management System](src/Day5/ProjectB.java)**:
+   - **Description**: A system to manage courses and students using various collections.
+   - **Key Features**: Adding courses, enrolling students, and displaying course and student information.
+
+**Key Learnings:**
+- **Collections Framework**: Deep understanding of various collections and their characteristics.
+- **ArrayList, LinkedList, Stack, Vector**: Practical usage and manipulation of dynamic collections.
+- **PriorityQueue**: Managing priority-based collections.
+- **HashMap, TreeMap**: Efficient key-value pair mappings and their applications.
+- **HashSet, LinkedHashSet, TreeSet**: Handling unique collections with specific order and sorting.
+- **Project Practice**: Implemented projects to reinforce learning and understanding of the collections framework.
+
+---
