@@ -165,7 +165,7 @@ class CourseManagement {
 		}
 		System.out.println("No Result Found\n");
 	}
-	
+
 	public void searchStudentByName(String stdName) {
 		for (Student s : students) {
 			if (s.getName().equalsIgnoreCase(stdName)) {
@@ -174,6 +174,62 @@ class CourseManagement {
 			}
 		}
 		System.out.println("No Result Found\n");
+	}
+
+	// Course Management
+	public void addCourse(Course course) {
+		if (!courses.contains(course) && courses.add(course)) {
+			System.out.println("Success\n");
+		} else {
+			System.out.println("Failed\n");
+		}
+	}
+
+	public void removeCourse(int courseId) {
+		if (courses.removeIf(course -> course.getCourseId() == courseId)) {
+			System.out.println("Success\n");
+		} else {
+			System.out.println("Failed\n");
+		}
+	}
+
+	public void updateCourse(Course course) {
+		for (int i = 0; i < courses.size(); i++) {
+			if (courses.get(i).getCourseId() == course.getCourseId()) {
+				courses.set(i, course);
+				System.out.println("Success\n");
+				return;
+			}
+		}
+		System.out.println("Failed\n");
+	}
+
+	public void searchCourseByID(int courseId) {
+		for (Course c : courses) {
+			if (c.getCourseId() == courseId) {
+				System.out.println(c + "\n");
+				return;
+			}
+		}
+		System.out.println("No Result Found\n");
+	}
+
+	public void searchCourseByName(String courseName) {
+		for (Course c : courses) {
+			if (c.getCourseName().equalsIgnoreCase(courseName)) {
+				System.out.println(c + "\n");
+				return;
+			}
+		}
+		System.out.println("No Result Found\n");
+	}
+	
+	public void enrollStudentInCourse(Student student, Course course) {
+		if(!student.getEnrolledCourse().contains(course)&&student.getEnrolledCourse().add(course)) {
+			System.out.println("Enrolled\n");
+		}else {
+			System.out.println("Cannot Enrolled\n");
+		}
 	}
 
 	// Displaying List
@@ -198,10 +254,10 @@ public class Project2 {
 
 		Student student1 = new Student(1, "John Doe");
 		Student student2 = new Student(2, "Jane Smith");
-		Student student3 = new Student(1, "Moe Doe");
 		Course course1 = new Course(101, "Math");
 		Course course2 = new Course(102, "Science");
-
+		
+		//Student Feature implication
 		cm.addStudent(student1);
 		cm.addStudent(student2);
 		cm.displayStudents();
@@ -210,10 +266,29 @@ public class Project2 {
 		cm.displayStudents();
 
 		cm.addStudent(student2);
-		cm.updateStudent(student3);
+		cm.updateStudent(new Student(1, "Moe Doe"));
 		cm.displayStudents();
 
 		cm.searchStudentByID(2);
 		cm.searchStudentByName("Moe Doe");
+		
+		//Course Feature implication
+		cm.addCourse(course1);
+		cm.addCourse(course2);
+		cm.displayCourses();
+
+		cm.removeCourse(course2.getCourseId());
+		cm.displayCourses();
+
+		cm.addCourse(course2);
+		cm.updateCourse(new Course(102, "Advanced Science"));
+		cm.displayCourses();
+
+		cm.searchCourseByID(101);
+		cm.searchCourseByName("Advanced Science");
+		
+		//Enrollment implication
+		cm.enrollStudentInCourse(student1, course1);
+		cm.displayStudents();
 	}
 }
