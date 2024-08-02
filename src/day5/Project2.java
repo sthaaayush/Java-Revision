@@ -223,12 +223,36 @@ class CourseManagement {
 		}
 		System.out.println("No Result Found\n");
 	}
-	
-	public void enrollStudentInCourse(Student student, Course course) {
-		if(!student.getEnrolledCourse().contains(course)&&student.getEnrolledCourse().add(course)) {
-			System.out.println("Enrolled\n");
-		}else {
-			System.out.println("Cannot Enrolled\n");
+
+	// Enroll a student in a course
+	public void enrollStudentInCourse(int studentID, int courseID) {
+		Student student = null;
+		Course course = null;
+
+		for (Student s : students) {
+			if (s.getStdID() == studentID) {
+				student = s;
+				break;
+			}
+		}
+
+		for (Course c : courses) {
+			if (c.getCourseId() == courseID) {
+				course = c;
+				break;
+			}
+		}
+
+		if (student != null && course != null) {
+			if (!student.getEnrolledCourse().contains(course)) {
+				student.getEnrolledCourse().add(course);
+				course.getEnrolledStudents().add(student);
+				System.out.println("Enrollment Success\n");
+			} else {
+				System.out.println("Student already enrolled in this course\n");
+			}
+		} else {
+			System.out.println("Student or Course not found\n");
 		}
 	}
 
@@ -256,8 +280,8 @@ public class Project2 {
 		Student student2 = new Student(2, "Jane Smith");
 		Course course1 = new Course(101, "Math");
 		Course course2 = new Course(102, "Science");
-		
-		//Student Feature implication
+
+		// Student Feature implication
 		cm.addStudent(student1);
 		cm.addStudent(student2);
 		cm.displayStudents();
@@ -271,8 +295,8 @@ public class Project2 {
 
 		cm.searchStudentByID(2);
 		cm.searchStudentByName("Moe Doe");
-		
-		//Course Feature implication
+
+		// Course Feature implication
 		cm.addCourse(course1);
 		cm.addCourse(course2);
 		cm.displayCourses();
@@ -286,9 +310,11 @@ public class Project2 {
 
 		cm.searchCourseByID(101);
 		cm.searchCourseByName("Advanced Science");
-		
-		//Enrollment implication
-		cm.enrollStudentInCourse(student1, course1);
+
+		// Enrollment implication
+		cm.enrollStudentInCourse(1, 101);
+		cm.enrollStudentInCourse(1, 102);
 		cm.displayStudents();
+		cm.displayCourses();
 	}
 }
