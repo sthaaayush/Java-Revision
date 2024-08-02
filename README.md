@@ -1,5 +1,5 @@
 ## Java-Revision
-**[Day 1: Java Learning Journey](/src/Day1)**
+**[Day 1: Java Learning Journey](/src/day1)**
 
 **Overview:**
 Today, I focused on foundational Java concepts, including understanding the Java Development Kit (JDK), Java Runtime Environment (JRE), and Java Virtual Machine (JVM). I also explored primitive data types, control flow statements, and loops.
@@ -19,9 +19,9 @@ Today, I focused on foundational Java concepts, including understanding the Java
    - **`while` and `do-while` Loops**: Used for repeated execution of code blocks.
 
 4. **Project Implementations:**
-   - **[Guess the Number Game](src/Day1/ProjectA.java)**: A console application where the user guesses a random number.
-   - **[Simple Calculator](src/Day1/ProjectC.java)**: A console application that performs basic arithmetic operations based on user input.
-   - **[Student Grade Management System](src/Day1/ProjectC.java)**: A console application to input grades, calculate the highest, lowest, and average grades.
+   - **[Guess the Number Game](src/day1/ProjectA.java)**: A console application where the user guesses a random number.
+   - **[Simple Calculator](src/day1/ProjectC.java)**: A console application that performs basic arithmetic operations based on user input.
+   - **[Student Grade Management System](src/day1/ProjectC.java)**: A console application to input grades, calculate the highest, lowest, and average grades.
 
 **Key Learnings:**
 - **Primitive Data Types**: Their properties and usage.
@@ -29,7 +29,7 @@ Today, I focused on foundational Java concepts, including understanding the Java
 - **Loops**: Repeating tasks and iteration.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 ---
-**[Day 2: OOPS Concept](/src/Day2)**
+**[Day 2: OOPS Concept](/src/day2)**
 
 **Overview:**
 Today, I focused on advanced Java concepts including inheritance, polymorphism, encapsulation, abstraction, arrays, and strings. I also worked on practical projects to solidify my understanding of these concepts.
@@ -64,11 +64,11 @@ Today, I focused on advanced Java concepts including inheritance, polymorphism, 
 
 **Project Implementations:**
 
-1. **[Contact Management System](src/Day2/ProjectA.java)**:
+1. **[Contact Management System](src/day2/ProjectA.java)**:
    - **Description**: A system to manage contact details using encapsulation.
    - **Key Features**: Adding, displaying contact details with validation for phone numbers and email addresses.
 
-2. **[String Manipulation Tool](src/Day2/ProjectB.java)**:
+2. **[String Manipulation Tool](src/day2/ProjectB.java)**:
    - **Description**: A tool to perform various string operations.
    - **Key Features**: Converting to uppercase, lowercase, finding length, checking prefixes and suffixes, replacing characters, splitting strings.
 
@@ -81,7 +81,7 @@ Today, I focused on advanced Java concepts including inheritance, polymorphism, 
 - **Strings**: Utilizing powerful string manipulation methods.
 - **Project Practice**: Implementing projects to reinforce learning and understanding of the concepts.
 ---
-**[Day 3: Exception Handling and Custom Exceptions](src/Day3)**
+**[Day 3: Exception Handling and Custom Exceptions](src/day3)**
 
 **Overview:**
 Today, I focused on understanding and implementing exception handling in Java, including creating custom exceptions and handling them in a sample project.
@@ -106,7 +106,7 @@ Today, I focused on understanding and implementing exception handling in Java, i
 
 ---
 
-**[Day 4: File I/O and Serialization](src/Day4)**
+**[Day 4: File I/O and Serialization](src/day4)**
 
 **Overview:**
 Today's focus was on file handling and serialization in Java. This included reading from and writing to files, and understanding how to serialize and deserialize objects.
@@ -133,7 +133,7 @@ Today's focus was on file handling and serialization in Java. This included read
 
 ---
 
-**[Day 5: Java Collections](src/Day5)**
+**[Day 5: Java Collections](src/day5)**
 
 **Overview:**
 Today's focus was on learning and practicing various Java Collections, specifically `ArrayList`, `LinkedList`, `Stack`, `Vector`, `HashMap`, `TreeMap`, and `HashSet`. This included understanding their characteristics, common methods, and practical implementations.
@@ -270,11 +270,11 @@ Today's focus was on learning and practicing various Java Collections, specifica
 
 **Project Implementations:**
 
-1. **[Library Management System](src/Day5/ProjectA.java)**:
+1. **[Library Management System](src/day5/ProjectA.java)**:
    - **Description**: A system to manage library books using ArrayList, LinkedList, and HashMap.
    - **Key Features**: Adding, removing, searching for books, and displaying available books.
 
-2. **[Course Management System](src/Day5/ProjectB.java)**:
+2. **[Course Management System](src/day5/ProjectB.java)**:
    - **Description**: A system to manage courses and students using various collections.
    - **Key Features**: Adding courses, enrolling students, and displaying course and student information.
 
