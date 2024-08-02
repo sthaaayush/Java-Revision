@@ -119,23 +119,101 @@ class Course {
 	}
 }
 
+class CourseManagement {
+	private List<Student> students;
+	private List<Course> courses;
+
+	public CourseManagement() {
+		students = new ArrayList<>();
+		courses = new ArrayList<>();
+	}
+
+	// Student Management
+	public void addStudent(Student std) {
+		if (!students.contains(std) && students.add(std)) {
+			System.out.println("Success\n");
+		} else {
+			System.out.println("Failed\n");
+		}
+	}
+
+	public void removeStudent(int stdID) {
+		if (students.removeIf(students -> students.getStdID() == stdID)) {
+			System.out.println("Success\n");
+		} else {
+			System.out.println("Failed\n");
+		}
+	}
+
+	public void updateStudent(Student std) {
+		for (int i = 0; i < students.size(); i++) {
+			if (students.get(i).getStdID() == std.getStdID()) {
+				students.set(i, std);
+				System.out.println("Success\n");
+				return;
+			}
+		}
+		System.out.println("Failed\n");
+	}
+
+	public void searchStudentByID(int stdId) {
+		for (Student s : students) {
+			if (s.getStdID() == stdId) {
+				System.out.println(s + "\n");
+				return;
+			}
+		}
+		System.out.println("No Result Found\n");
+	}
+	
+	public void searchStudentByName(String stdName) {
+		for (Student s : students) {
+			if (s.getName().equalsIgnoreCase(stdName)) {
+				System.out.println(s + "\n");
+				return;
+			}
+		}
+		System.out.println("No Result Found\n");
+	}
+
+	// Displaying List
+	public void displayStudents() {
+		for (Student dis : students) {
+			System.out.println(dis);
+		}
+		System.out.println();
+	}
+
+	public void displayCourses() {
+		for (Course dis : courses) {
+			System.out.println(dis);
+		}
+		System.out.println();
+	}
+}
+
 public class Project2 {
 	public static void main(String[] args) {
+		CourseManagement cm = new CourseManagement();
+
 		Student student1 = new Student(1, "John Doe");
 		Student student2 = new Student(2, "Jane Smith");
-
+		Student student3 = new Student(1, "Moe Doe");
 		Course course1 = new Course(101, "Math");
 		Course course2 = new Course(102, "Science");
 
-		student1.enrollInCourse(course1);
-		student1.enrollInCourse(course2);
+		cm.addStudent(student1);
+		cm.addStudent(student2);
+		cm.displayStudents();
 
-		student2.enrollInCourse(course1);
+		cm.removeStudent(student2.getStdID());
+		cm.displayStudents();
 
-		System.out.println(student1);
-		System.out.println(student2);
+		cm.addStudent(student2);
+		cm.updateStudent(student3);
+		cm.displayStudents();
 
-		System.out.println(course1);
-		System.out.println(course2);
+		cm.searchStudentByID(2);
+		cm.searchStudentByName("Moe Doe");
 	}
 }
