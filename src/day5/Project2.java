@@ -255,6 +255,37 @@ class CourseManagement {
 			System.out.println("Student or Course not found\n");
 		}
 	}
+	
+	// Withdraw a student from a course
+	public void withdrawStudentFromCourse(int studentID, int courseID) {
+	    Student student = null;
+	    Course course = null;
+
+	    for (Student s : students) {
+	        if (s.getStdID() == studentID) {
+	            student = s;
+	            break;
+	        }
+	    }
+
+	    for (Course c : courses) {
+	        if (c.getCourseId() == courseID) {
+	            course = c;
+	            break;
+	        }
+	    }
+
+	    if (student != null && course != null) {
+	        if (student.getEnrolledCourse().remove(course)) {
+	            course.getEnrolledStudents().remove(student);
+	            System.out.println("Withdrawal Success\n");
+	        } else {
+	            System.out.println("Student is not enrolled in this course\n");
+	        }
+	    } else {
+	        System.out.println("Student or Course not found\n");
+	    }
+	}
 
 	// Displaying List
 	public void displayStudents() {
