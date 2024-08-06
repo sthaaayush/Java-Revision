@@ -285,5 +285,5 @@ Today's focus was on learning and practicing various Java Collections, specifica
 - **HashMap, TreeMap**: Efficient key-value pair mappings and their applications.
 - **HashSet, LinkedHashSet, TreeSet**: Handling unique collections with specific order and sorting.
 - **Project Practice**: Implemented projects to reinforce learning and understanding of the collections framework.
-
+   
 ---
