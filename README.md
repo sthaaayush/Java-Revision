@@ -6,7 +6,7 @@ Today, I focused on foundational Java concepts, including understanding the Java
 
 **Topics Covered:**
 
-1. **Java Basics:**
+1. **Java Basics:** 
    - **JDK, JRE, and JVM**: Learned the differences and relationships between JDK, JRE, and JVM. 
    - **Primitive Data Types**: Covered different primitive data types, their sizes, ranges, and default values.
 
