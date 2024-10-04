@@ -1,6 +1,2 @@
-/SyncExample.class
-/Counter.class
-/SharedResource.class
-/SynchronizedCounter.class
-/LockExample.class
-/LockCounter.class
+/BankAccount.class
+/Customer.class
