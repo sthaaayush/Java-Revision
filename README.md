@@ -287,7 +287,7 @@ Today's focus was on learning and practicing various Java Collections, specifica
 - **Project Practice**: Implemented projects to reinforce learning and understanding of the collections framework.
 
 ---
-# **[Day 6: Multithreading and Synchronization](src/day6)**
+**[Day 6: Multithreading and Synchronization](src/day6)**
 
 ## **Overview:**
 Today's focus was on learning and practicing multithreading concepts in Java, including the thread life cycle, thread synchronization, and implementing a banking simulation to demonstrate these concepts in action.
