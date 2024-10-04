@@ -287,3 +287,59 @@ Today's focus was on learning and practicing various Java Collections, specifica
 - **Project Practice**: Implemented projects to reinforce learning and understanding of the collections framework.
 
 ---
+# **[Day 6: Multithreading and Synchronization](src/day6)**
+
+## **Overview:**
+Today's focus was on learning and practicing multithreading concepts in Java, including the thread life cycle, thread synchronization, and implementing a banking simulation to demonstrate these concepts in action.
+
+## **Topics Covered:**
+
+1. **Multithreading Basics:**
+   - **Introduction to Multithreading**: Understanding the concept of threads and how they allow concurrent execution of code.
+   - **Thread Creation**: 
+     - Using the `Thread` class and implementing the `Runnable` interface.
+   - **Example**: Creating threads using both methods and observing their behavior.
+
+2. **Thread Life Cycle:**
+   - **Understanding the Life Cycle**: The different states of a thread (New, Runnable, Blocked, Waiting, Timed Waiting, Terminated).
+   - **State Transitions**: How threads move between states.
+   - **Example**: Demonstrating thread states using a simple program.
+
+3. **Thread Synchronization:**
+   - **Need for Synchronization**: Understanding race conditions and the importance of thread safety.
+   - **Synchronization Techniques**:
+     - Using the `synchronized` keyword for methods and blocks.
+     - Using `Lock` objects from the `java.util.concurrent.locks` package.
+   - **Example**: Implementing synchronization in a multi-threaded application.
+
+4. **Inter-thread Communication:**
+   - **Using `wait()` and `notify()`**: Understanding how threads can communicate with each other.
+   - **Example**: Demonstrating producer-consumer problem with inter-thread communication.
+
+5. **Thread Pooling:**
+   - **Introduction to Executor Framework**: Managing a pool of threads using the Executor framework.
+   - **Example**: Creating a thread pool and submitting tasks for execution.
+
+6. **Banking Simulation Project:**
+   - **Description**: A multi-threaded banking simulation where multiple customers perform deposits and withdrawals on shared bank accounts.
+   - **Key Features**: 
+     - Thread safety with synchronized methods.
+     - Limitations on withdrawal amounts per customer.
+
+## **Project Implementations:**
+
+1. **[Banking Simulation](src/day6/ProjectA.java)**:
+   - **Description**: A simulation of a banking system where multiple customers can access their bank accounts concurrently.
+   - **Key Features**: 
+     - Implementation of deposits and withdrawals.
+     - Use of locks to ensure thread safety during transactions.
+     - Demonstration of inter-thread communication and synchronization.
+
+## **Key Learnings:**
+- **Multithreading Concepts**: In-depth understanding of thread creation, life cycle, and synchronization.
+- **Synchronization Techniques**: Practical implementation of synchronization to prevent race conditions.
+- **Inter-thread Communication**: Knowledge of how to use wait and notify for coordinating threads.
+- **Thread Pooling**: Understanding the benefits of using a thread pool for managing concurrent tasks.
+- **Project Practice**: Implemented a real-world banking simulation project to reinforce learning of multithreading and synchronization.
+
+---
